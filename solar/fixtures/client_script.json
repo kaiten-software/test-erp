@@ -1,13 +1,1 @@
-[
- {
-  "docstatus": 0,
-  "doctype": "Client Script",
-  "dt": "Account",
-  "enabled": 0,
-  "modified": "2025-11-08 23:37:16.430742",
-  "module": null,
-  "name": "test client script",
-  "script": "frappe.ui.form.on('Account', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})",
-  "view": "Form"
- }
-]
+[]
