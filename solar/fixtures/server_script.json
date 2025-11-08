@@ -9,13 +9,13 @@
   "doctype_event": "Before Insert",
   "enable_rate_limit": 0,
   "event_frequency": "All",
-  "modified": "2025-11-08 23:20:20.980121",
+  "modified": "2025-11-08 23:35:48.622953",
   "module": "Solar",
   "name": "test server script",
   "rate_limit_count": 5,
   "rate_limit_seconds": 86400,
   "reference_doctype": null,
-  "script": "frappe.new_doc",
+  "script": "frappe.bold",
   "script_type": "DocType Event"
  }
 ]
