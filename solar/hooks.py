@@ -242,3 +242,106 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+# Fixtures
+# --------
+# Export fixtures for customizations
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                []
+            ]
+        ]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                []
+            ]
+        ]
+    },
+    {
+        "dt": "Client Script",
+    },
+    {
+        "dt": "Server Script",
+    },
+    {
+        "dt": "Workflow",
+    },
+    {
+        "dt": "Workflow State",
+    },
+    {
+        "dt": "Workflow Action Master",
+    },
+    {
+        "dt": "Print Format",
+    },
+    {
+        "dt": "Letter Head",
+    },
+    {
+        "dt": "Email Template",
+    },
+    {
+        "dt": "Custom DocPerm",
+    },
+    {
+        "dt": "DocType",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Solar"
+            ]
+        ]
+    },
+    {
+        "dt": "Report",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Solar"
+            ]
+        ]
+    },
+    {
+        "dt": "Dashboard",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Solar"
+            ]
+        ]
+    },
+    {
+        "dt": "Dashboard Chart",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Solar"
+            ]
+        ]
+    },
+    {
+        "dt": "Number Card",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Solar"
+            ]
+        ]
+    },
+]
