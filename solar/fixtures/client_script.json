@@ -9,5 +9,16 @@
   "name": "test 2 client sc",
   "script": "frappe.ui.form.on('About Us Settings', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "About Us Settings",
+  "enabled": 0,
+  "modified": "2025-11-08 23:42:39.555873",
+  "module": null,
+  "name": "text cl 3",
+  "script": "frappe.ui.form.on('About Us Settings', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})",
+  "view": "Form"
  }
 ]
